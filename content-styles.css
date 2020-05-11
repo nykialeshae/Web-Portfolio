@@ -1,0 +1,166 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box
+}
+body {
+    font-family: "Anisette Std Petite", pt-sans;
+    background-image: url(./images/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+/*Nav styles start here*/
+nav {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    top: 0px;
+    left: 0px;
+    font-size: 22px;
+    text-align: center;
+    background-color: rgba(0,11,140,1.00);
+    margin-top: -14px;
+}
+nav p {
+    display: inline-block;
+    padding: 5px 15px 0px 10px;
+    border-right: 1px solid #FF0000;
+    font-family: "Anisette Std Petite", pt-sans;
+    margin-top: 14px;
+}
+nav p a {
+    color: #FFCE00;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Anisette Std Petite", pt-sans;
+}
+nav p a:hover {
+    text-shadow: 0px 0px 7px rgba(255,0,0,1.00);
+    color: rgba(255,206,0,1.00);
+
+}
+nav p:last-of-type {
+    border-right-width: 0px;
+}/*Header styles start here*/
+header {
+    text-align: center;
+    margin-top: 107px;
+}
+.header-img {
+    height: auto;
+    border-radius: 0px;
+    width: 100%;
+}
+/*Styles for main Starts here*/
+main {
+    margin-top: -6px;
+}
+.body-main {
+    margin-top: 81px;
+}
+section {
+    margin-top: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    padding-left: 15px;
+    background-color: rgba(0,11,140,0.77);
+}
+.about-sect {
+    height: 472px;
+    max-height: 500px;
+
+}
+video {
+    width: 100%;
+    height: auto;
+}
+.video-sect-bg {
+    text-align: center;
+}
+
+
+.main-sect-img  {
+    width: 40%;
+    height: auto;
+}
+.main-about-img {
+    width: 40%;
+    height: auto;
+    float: left;
+    padding-right: 28px;
+}
+
+h1 {
+    text-align: center;
+    color: rgba(255,206,0,1.00);
+    font-size: 41px;
+    margin-top: -9px;
+    text-shadow: 0px 0px 13px rgba(255,0,0,1.00);
+    margin-bottom: 26px;
+	
+}
+main section p {
+    color: rgba(255,206,0,1.00);
+}
+/*Styles for footer start here*/
+footer {
+    background-color: rgba(0,11,140,1.00);
+    margin-top: 15px;
+    text-align: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+footer p  {
+    color: rgba(255,206,0,1.00);
+    text-align: center;
+}
+ul p  {
+    text-align: center;
+    margin-bottom: 34px;
+    margin-top: -36px;
+    font-size: x-large;
+}
+.c-sect {
+    height: 567px;
+
+}
+.home-sect {
+    text-align: center;
+
+}
+li {
+    color: rgba(255,0,0,1.00);
+    /* [disabled]width: 173px; */
+    text-align: left;
+}
+li a:hover {
+    text-shadow: 1px 1px 5px rgba(255,0,0,1.00);
+    text-decoration: none;
+    color: rgba(255,206,0,1.00);
+
+}
+li a {
+    color: rgba(255,206,0,1.00);
+    font-family: "Anisette Std Petite", pt-sans;
+    font-weight: 700;
+    text-decoration: none;
+}
+.home-sect p a {
+    color: rgba(255,206,0,1.00);
+    font-family: "Anisette Std Petite", pt-sans;
+    font-weight: 700;
+    text-decoration: none;
+}
+.home-sect p a:hover {
+    text-shadow: 1px 1px 5px rgba(255,0,0,1.00);
+    text-decoration: none;
+    color: rgba(255,206,0,1.00);
+}
