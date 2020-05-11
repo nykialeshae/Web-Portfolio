@@ -157,7 +157,7 @@ li a {
     color: rgba(255,206,0,1.00);
     font-family: "Anisette Std Petite", pt-sans;
     font-weight: 700;
-    text-decoration: none;
+    text-decoration: underline;
 }
 .home-sect p a:hover {
     text-shadow: 1px 1px 5px rgba(255,0,0,1.00);
